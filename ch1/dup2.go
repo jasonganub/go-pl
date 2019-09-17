@@ -26,8 +26,8 @@ func main() {
 	}
 
 	fmt.Println("Counts")
-	for lines, n := range counts {
-		fmt.Printf("%d\t%s\n", n, lines)
+	for text, count := range counts {
+		fmt.Printf("%d\t%s\n", text, count)
 	}
 }
 
