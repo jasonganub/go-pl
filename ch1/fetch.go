@@ -31,5 +31,6 @@ func main() {
 		}
 
 		fmt.Printf("%s", b)
+		fmt.Printf("Status code: %s", resp.Status)
 	}
 }
